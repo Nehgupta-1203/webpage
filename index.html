@@ -70,14 +70,14 @@
               <h1 style="color:#cc0000">Baseline Models</h1>
          
             	<h2 style="color:#cccc00">Naive Bayes Classifier</h2>
-              <p>The features used are:</p>
+              <h3>The features used are:</h3>
               <ul class="default">
                   <li>TFIDF weights</li>
                   <li>Number of citations</li>
                   <li>Polarity and Subjectivity</li>
                   <li>unigram and bigram match between title and article data</li>
                 </ul>
-              <p>The results obtained are:</p>
+              <h3>The results obtained are:</h3>
                   <ul>
                     <li>Ground Truth Accuracy:<span style="color:#ff0000"> 53% </span></li>
                     <li>Multi Label Accuracy (left/center/right) : <span style="color:#ff0000"> 24%</span>>	</li>
@@ -86,13 +86,13 @@
                 <br>
                 <h2 style="color:#cccc00">Support Vector Machines(SVM)</h2>
                 <p> Since the number of features are large for text classification, we use linear kernel svm. For the multi-class classification we use the One-vs-all classification.We use a binary classifier to determine the ground truth.</p>
-                <p>The features used are:</p>
+                <h3>The features used are:</h3>
                 <ul class="default">
                     <li>TFIDF weights of unigram and bigram tokens</li>
                     <li>Polarity and Subjectivity</li>
                     <li>Average Sentence length</li>
                   </ul>
-                <p>The results obtained are:</p>
+                <h3>The results obtained are:</h3>
                     <ul >
                       <li>Ground Truth Accuracy: <span style="color:#ff0000"> 69% </span></li>
                       <li>Multi Label Accuracy (left/center/right) : <span style="color:#ff0000"> 29%	</span></li>
